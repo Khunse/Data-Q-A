@@ -1,0 +1,21 @@
+{
+  "name": "answerapp",
+  "version": "1.0.0",
+  "main": "load_data.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@huggingface/inference": "^4.6.1",
+    "@langchain/community": "^0.3.50",
+    "@langchain/core": "^0.3.68",
+    "@langchain/textsplitters": "^0.1.0",
+    "@qdrant/js-client-rest": "^1.15.0",
+    "openai": "^5.12.2",
+    "puppeteer": "^24.16.0"
+  }
+}
